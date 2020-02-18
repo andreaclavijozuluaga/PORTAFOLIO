@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  background: whitesmoke;
+}
+
+header {
+  border: 2px gray dashed;
+  border-radius: 8px;
+  /*recuadro Cabecera*/
+}
+
+.header_menu {
+  color: palevioletred;
+  display: flex;
+  justify-content: space-between;
+  /*Ubica en forma ordenada*/
+}
+
+.header_menu ul {
+  display: flex;
+  /*Se alinea en contenido en misma linea*/
+}
+
+.header_menu li {
+  display: inherit;
+  /*Quita punteros*/
+}
+
+.header_menu a {
+  text-decoration: none;
+  color: palevioletred;
+  padding: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header_menu a:hover {
+  background-color: palevioletred;
+  color: white;
+  border-radius: 10px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  color: white;
+  background-color: powderblue;
+  border-radius: 15px;
+}
+
+.banner .banner_hero {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.banner_text-hero {
+  padding: 80px 0 0 80px;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.perfil_image {
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.color_name {
+  color: palevioletred;
+  font-size: 35px;
+}
+
+.portafolio {
+  display: flex;
+  margin: 100px 0;
+}
+
+.portafolio_box {
+  margin: 15px;
+  box-shadow: 0px 1px 8px 2px rgb(118, 168, 206);
+  border-radius: 10px;
+  width: 33%;
+  text-align: center;
+}
+
+.portafolio_box_img {
+  border-radius: 10px;
+}
+
+.portafolio_card {
+  margin: 1px;
+  padding: 1px;
+}
+
+.portafolio_card button {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0px 1px 4px 1px gray;
+}
+
+.portafolio_card button:hover {
+  background: palevioletred;
+}
+
+.tittle {
+  border-left: 6px solid palevioletred;
+  background-color: papayawhip;
+  text-align: center;
+}
+
+.experience {
+  display: flex;
+  margin: 100px 0;
+}
+
+.experience_box {
+  margin: 15px;
+  box-shadow: 0px 1px 8px 2px rgb(118, 168, 206);
+  border-radius: 10px;
+  width: 50%;
+}
+
+.experience_body {
+  box-shadow: 0px -10px 10px 2px whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: cornflowerblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo_agileinnova {
+  margin: 20px;
+}
+
+.footer {
+  color: white;
+  background-color: powderblue;
+}
+
+.footer .footer_sections {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+}
+
+.copyright {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
